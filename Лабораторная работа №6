@@ -1,0 +1,16 @@
+#include "pch.h"
+#include <iostream>
+using namespace std;
+int main()
+{
+setlocale(LC_ALL, "rus");
+int an = 0, a1 = 0;
+cout << "Введите два числа" << endl;
+cin >> an >> a1;
+for (int i = an; i > a1; i--)
+{
+cout << i << endl;
+}
+system("pause");
+return 0;
+}
